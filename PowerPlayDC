@@ -14,8 +14,8 @@ public class PowerPlayDC extends LinearOpMode {
     private DcMotor ArmMotor;
     private DcMotor Frontleft;
     private DcMotor Backleft;
-    private DcMotor Fronright;
-    private DcMotor Backtright;
+    private DcMotor Frontright;
+    private DcMotor Backright;
     private Servo GripperServo;
 //Whole Code Notes: Look at block code for denominator info.
 
