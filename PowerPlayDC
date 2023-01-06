@@ -14,8 +14,8 @@ public class PowerPlayDC extends LinearOpMode {
     private DcMotor ArmMotor;
     private DcMotor Frontleft;
     private DcMotor Backleft;
-    private DcMotor Frontright;
-    private DcMotor Backright;
+    private DcMotor Fronright;
+    private DcMotor Backtright;
     private Servo GripperServo;
 //Whole Code Notes: Look at block code for denominator info.
 
@@ -66,22 +66,6 @@ public class PowerPlayDC extends LinearOpMode {
                 Backleft.setPower((((y - x) + rx) / denominator) * maxPower);
                 Frontright.setPower((((y - x) - rx) / denominator) * maxPower);
                 Backright.setPower((((y + x) - rx) / denominator) * maxPower);
-
-                //} This is commented out on purpose.
-                //if (gamepad1.right_bumper) {
-                //Frontleft.
-                //BackLeft.
-                //FrontRight.
-                //BackRight.
-
-                //}
-                //if (gamepad1.left_bumper) {
-                //Frontleft.
-                //BackLeft.
-                //FrontRight.
-                //BackRight.
-
-                //Stuff past here should be uncommented out.
 
                 // Arm Code
                 if (gamepad2.dpad_down) {
