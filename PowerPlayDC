@@ -17,7 +17,6 @@ public class PowerPlayDC extends LinearOpMode {
     private DcMotor Frontright;
     private DcMotor Backright;
     private Servo GripperServo;
-//Whole Code Notes: Look at block code for denominator info.
 
     public void runOpMode() {
         boolean goToPosition;
